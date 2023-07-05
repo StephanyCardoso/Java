@@ -1,0 +1,28 @@
+package Modelo;
+
+public class menuPessoas {
+
+		    private String Nome;
+		    private String Sobrenome;
+		
+		    public Pessoa(String Nome, String Sobrenome) {
+		        this.Nome = Nome;
+		        this.Sobrenome = Sobrenome;
+		    }
+		
+		    public String getNome() {
+		        return Nome;
+		    }
+		
+		    public void setNome(String Nome) {
+		        this.Nome = Nome;
+		    }
+		
+		    public String getSobrenome() {
+		        return Sobrenome;
+		    }
+		
+		    public void setSobrenome(String Sobrenome) {
+		        this.Sobrenome = Sobrenome;
+		    }
+	}	    
